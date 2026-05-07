@@ -1910,6 +1910,7 @@ margin-top:20px;
   letter-spacing:0.5px;
   position:relative;
   display:inline-block;
+  color: #fff;
 }
 
 .footer-title::after{
@@ -2072,7 +2073,6 @@ margin-top:20px;
 
 /* Presells CSS Start */
 .sub-banner {
-  background: url("../images/home_banner.jpg");
   background-size: cover;
   background-position: center;
   height: 35.875rem;
@@ -2094,5 +2094,153 @@ section.sub-banner h1 {
 }
 .sub-banner .jerseymain {
   margin-top: 4rem;
+}
+.presell-section {
+  background: #f5f5f5;
+  padding: 60px 20px;
+}
+
+.presell-section .presell-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LEFT CONTENT */
+.presell-section .presell-content {
+  flex: 1;
+}
+
+.presell-section .presell-text {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.presell-section .presell-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.presell-section .presell-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+}
+
+.presell-section .presell-list li {
+  position: relative;
+  padding-left: 25px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.presell-section .presell-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ef450e; /* YOUR COLOR */
+  font-size: 14px;
+}
+
+
+.presell-section .presell-image {
+  flex: 1;
+  text-align: center;
+}
+
+.presell-section .presell-image img {
+  max-width: 100%;
+  height: auto;
+}
+.presell-steps {
+  background: #f5f5f5;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.presell-steps .presell-steps-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.presell-steps .presell-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #111;
+}
+
+/* STEPS WRAPPER */
+.presell-steps .steps-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+}
+
+/* LINE BETWEEN STEPS */
+.presell-steps .steps-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 5%;
+  width: 90%;
+  height: 1px;
+  border-top: 2px dashed #ccc;
+  z-index: 0;
+}
+
+/* STEP ITEM */
+.presell-steps .step-item {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.presell-steps .step-icon {
+  width: 60px;
+  height: 60px;
+  background: #ef450e; /* YOUR COLOR */
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 22px;
+}
+
+.presell-steps .step-item h4 {
+  color: #ef450e;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.presell-steps .step-item p {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 576px) {
+
 }
 /* Presells CSS End */

@@ -1,44 +1,49 @@
 @media (max-width: 1199px) {
-    html{
+    html {
         font-size: 15px;
     }
-    .home_online_cards{
-        height:auto;
-        padding-bottom:26.25rem;
-    }
-  
-    .home_online_cards_left{
-        width:100%;
-    }
-  
-    .home_online_cards_right{
-        position:relative;
-        width:100%;
-        right:auto;
-        top:auto;
-        margin-top:2.5rem;
-    }
-    .home_online_cards_main_title{
-        font-size:3.5rem;
-    }
-    .home_online_cards {
-      padding: 1.25rem;
-  }
-  .home_online_cards_products{
-    position:relative;
-    right:auto;
-    width:100%;
-    max-width:38rem;
-    margin:3rem auto 0;
-}
-  .footer-top{
-    grid-template-columns:repeat(2,1fr);
-    gap:40px 60px;
-  }
 
-  .footer-col:nth-child(2)::after{
-    display:none;
-  }
+    .home_online_cards {
+        height: auto;
+        padding-bottom: 26.25rem;
+    }
+
+    .home_online_cards_left {
+        width: 100%;
+    }
+
+    .home_online_cards_right {
+        position: relative;
+        width: 100%;
+        right: auto;
+        top: auto;
+        margin-top: 2.5rem;
+    }
+
+    .home_online_cards_main_title {
+        font-size: 3.5rem;
+    }
+
+    .home_online_cards {
+        padding: 1.25rem;
+    }
+
+    .home_online_cards_products {
+        position: relative;
+        right: auto;
+        width: 100%;
+        max-width: 38rem;
+        margin: 3rem auto 0;
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 60px;
+    }
+
+    .footer-col:nth-child(2)::after {
+        display: none;
+    }
 }
 
 
@@ -48,9 +53,12 @@
         padding: 0 0.9375rem;
     }
 
-    .stat-number, .static-text {
+    .stat-number,
+    .static-text {
         font-size: 1.5rem;
     }
+
+
 }
 
 
@@ -135,76 +143,110 @@
         width: calc(50% - 12px);
         flex: unset;
     }
-    
-  .home_cta{
-    padding:50px 20px;
-}
 
-.home_cta_side{
-    opacity:.18;
-}
+    .home_cta {
+        padding: 50px 20px;
+    }
 
-.home_cta_title{
-    font-size:34px;
-}
-.home_features_wrapper{
-    grid-template-columns:repeat(3,1fr);
-}
+    .home_cta_side {
+        opacity: .18;
+    }
 
-.home_feature_item:nth-child(3){
-    border-right:none;
-}
-.home_live_sports_cards_wrapper{
-    grid-template-columns:repeat(2,1fr);
-}
+    .home_cta_title {
+        font-size: 34px;
+    }
 
-.home_live_sports_card_item:nth-child(2){
-    border-right:none;
-}
+    .home_features_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-.home_live_sports_card_item:nth-child(-n+2){
-    border-bottom:1px solid #ececec;
-}
+    .home_feature_item:nth-child(3) {
+        border-right: none;
+    }
 
-/* lak*/
-  .customers-section .container {
-    flex-direction: column;
-    text-align: center;
-  }
+    .home_live_sports_cards_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-  .customers-section .card-images {
-    margin: 40px 0;
-  }
+    .home_live_sports_card_item:nth-child(2) {
+        border-right: none;
+    }
 
-  .customers-section .card {
-    position: relative;
-    transform: none !important;
-    margin: 0 5px;
-  }
+    .home_live_sports_card_item:nth-child(-n+2) {
+        border-bottom: 1px solid #ececec;
+    }
+
+    .customers-section .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .customers-section .card-images {
+        margin: 40px 0;
+    }
+
+    .customers-section .card {
+        position: relative;
+        transform: none !important;
+        margin: 0 5px;
+    }
+
     .next-gen__container {
-    flex-direction: column;
-    text-align: center;
-  }
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .next-gen__visual {
-    margin-top: 40px;
-  }
+    .next-gen__visual {
+        margin-top: 40px;
+    }
 
-  .next-gen__visual .card {
-    position: relative;
-    transform: none;
-    margin: 10px;
-  }
+    .next-gen__visual .card {
+        position: relative;
+        transform: none;
+        margin: 10px;
+    }
+
+    .presell-section .presell-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .presell-section .presell-list {
+        grid-template-columns: 1fr;
+    }
+
+    .presell-section .presell-content {
+        order: 2;
+    }
+
+    .presell-section .presell-image {
+        order: 1;
+    }
+
+    .presell-steps .steps-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .presell-steps .step-item {
+        flex: 0 0 45%;
+        margin-bottom: 30px;
+    }
+
+    .presell-steps .steps-wrapper::before {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
-    
-  html{
+
+    html {
         font-size: 14px;
     }
+
     .banner_section {
         height: 100%;
     }
+
     .stats-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -220,139 +262,157 @@
     .stat-card:last-child {
         border-bottom: none;
     }
+
     .banner_content p {
         font-size: 1rem;
     }
-    .banner_wrap{
+
+    .banner_wrap {
         padding: 0;
     }
+
     .stats-wrapper {
         margin-top: 2rem;
     }
+
     .featured-highlight-item {
         margin-top: 10px;
     }
-    .home_features_wrapper{
-        grid-template-columns:repeat(2,1fr);
-    }
-  
-    .home_feature_item{
-        border-right:1px solid #ececec;
-        border-bottom:1px solid #ececec;
-        padding:1.75rem 1.125rem;
-    }
-  
-    .home_feature_item:nth-child(2n){
-        border-right:none;
-    }
-  
-    .home_feature_item:last-child{
-        grid-column:1 / -1;
-        border-bottom:none;
-    }
-  
-    .home_feature_title{
-        font-size:0.875rem;
-    }
-    .home_live_sports_card_item{
-        padding:2rem 1.25rem;
-    }
-  
-    .home_live_sports_card_count{
-        font-size:1.9rem;
-    }
-    .home_online_cards_logos{
-        grid-template-columns:1fr;
-    }
-  
-    .home_online_cards_logo_box{
-        height:5rem;
-    }
-  
-    .home_online_cards_logo_img{
-        max-width:7rem;
-    }
-    .home_online_cards_main_title{
-        font-size:2.75rem;
-    }
-  
-    .home_online_cards_description{
-        font-size:1rem;
-    }
-  
-    .home_online_cards_brand{
-        font-size:2.75rem;
-    }
-  
-    .home_online_cards_products{
-        width:100%;
-        max-width:31.25rem;
-        height:17.5rem;
-    }
-  
-    .home_online_cards_product_prizm{
-        width:10rem;
-        height:13.75rem;
-        left:0;
-    }
-  
-    .home_online_cards_product_card{
-        width:8.75rem;
-        height:12.5rem;
-        left:9rem;
-    }
-  
-    .home_online_cards_product_chrome{
-        width:10rem;
-        height:13.75rem;
-        right:0;
-    }
-  
-    .home_online_cards_product_title{
-        font-size:2rem;
-    }
-  
-    .home_online_cards_product_card_title{
-        font-size:1.375rem;
-    }
-    .home_online_cards_products{
-        max-width:100%;
-        margin-top:2rem;
-    }
-      .footer{
-    padding:60px 24px 30px;
-  }
 
-  .footer-top{
-    grid-template-columns:1fr;
-    gap:40px;
-  }
+    .home_features_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-  .footer-col::after{
-    display:none;
-  }
+    .home_feature_item {
+        border-right: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
+        padding: 1.75rem 1.125rem;
+    }
 
-  .footer-bottom{
-    flex-direction:column;
-    align-items:flex-start;
-  }
+    .home_feature_item:nth-child(2n) {
+        border-right: none;
+    }
+
+    .home_feature_item:last-child {
+        grid-column: 1 / -1;
+        border-bottom: none;
+    }
+
+    .home_feature_title {
+        font-size: 0.875rem;
+    }
+
+    .home_live_sports_card_item {
+        padding: 2rem 1.25rem;
+    }
+
+    .home_live_sports_card_count {
+        font-size: 1.9rem;
+    }
+
+    .home_online_cards_logos {
+        grid-template-columns: 1fr;
+    }
+
+    .home_online_cards_logo_box {
+        height: 5rem;
+    }
+
+    .home_online_cards_logo_img {
+        max-width: 7rem;
+    }
+
+    .home_online_cards_main_title {
+        font-size: 2.75rem;
+    }
+
+    .home_online_cards_description {
+        font-size: 1rem;
+    }
+
+    .home_online_cards_brand {
+        font-size: 2.75rem;
+    }
+
+    .home_online_cards_products {
+        width: 100%;
+        max-width: 31.25rem;
+        height: 17.5rem;
+    }
+
+    .home_online_cards_product_prizm {
+        width: 10rem;
+        height: 13.75rem;
+        left: 0;
+    }
+
+    .home_online_cards_product_card {
+        width: 8.75rem;
+        height: 12.5rem;
+        left: 9rem;
+    }
+
+    .home_online_cards_product_chrome {
+        width: 10rem;
+        height: 13.75rem;
+        right: 0;
+    }
+
+    .home_online_cards_product_title {
+        font-size: 2rem;
+    }
+
+    .home_online_cards_product_card_title {
+        font-size: 1.375rem;
+    }
+
+    .home_online_cards_products {
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+
+    .footer {
+        padding: 60px 24px 30px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-col::after {
+        display: none;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
     /* lak */
-      .customers-section h3 {
-    font-size: 18px;
-  }
+    .customers-section h3 {
+        font-size: 18px;
+    }
 
-  .customers-section .btn {
-    width: 100%;
-  }
+    .customers-section .btn {
+        width: 100%;
+    }
+
     .next-gen__content h2 {
-    font-size: 26px;
-  }
+        font-size: 26px;
+    }
 
-  .next-gen__buttons a {
-    display: block;
-    margin-bottom: 10px;
-  }
+    .next-gen__buttons a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .presell-section .presell-list li {
+        text-align: left;
+    }
+
+    .presell-section .presell-list {
+        place-items: center;
+    }
 }
 
 
@@ -360,9 +420,11 @@
     .feature-strip {
         padding: 20px;
     }
+
     .banner_content h1 {
         font-size: 2rem;
     }
+
     .feature-item {
         width: 100%;
     }
@@ -374,91 +436,103 @@
     .feature-content p {
         font-size: 12px;
     }
-    .home_cta_title{
-        font-size:28px;
+
+    .home_cta_title {
+        font-size: 28px;
     }
-  
-    .home_cta_text{
-        font-size:14px;
+
+    .home_cta_text {
+        font-size: 14px;
     }
-  
-    .home_cta_btn{
-        width:100%;
+
+    .home_cta_btn {
+        width: 100%;
     }
-  
-    .home_cta_buttons{
-        width:100%;
+
+    .home_cta_buttons {
+        width: 100%;
     }
-  
-    .home_cta_side{
-        display:none;
+
+    .home_cta_side {
+        display: none;
     }
+
     .featured-highlight {
         flex-direction: column;
         align-items: start;
-        gap:0;
+        gap: 0;
     }
-    .stat-number, .static-text {
+
+    .stat-number,
+    .static-text {
         font-size: 1.2rem;
     }
-    .btn-primary, .btn-secondary {
+
+    .btn-primary,
+    .btn-secondary {
         padding: 0.5rem 1rem;
+    }
+
+    .presell-steps .step-item {
+        flex: 0 0 100%;
     }
 
 }
 
 @media screen and (max-width:480px) {
-    .home_features_wrapper{
-        grid-template-columns:1fr;
+    .home_features_wrapper {
+        grid-template-columns: 1fr;
     }
-  
-    .home_feature_item{
-        border-right:none !important;
-    }
-  
-    .home_feature_item:last-child{
-        grid-column:auto;
-    }
-  
-    .home_feature_title{
-        max-width:100%;
-    }
-    .home_live_sports_cards_wrapper{
-        grid-template-columns:1fr;
-    }
-  
-    .home_live_sports_card_item{
-        border-right:none !important;
-    }
-  
-    .home_live_sports_card_item:not(:last-child){
-        border-bottom:1px solid #ececec;
-    }
-  
-    .home_live_sports_card_count{
-        font-size:1.75rem;
-    }
-      .logo h2{
-    font-size:24px;
-  }
 
-  .footer-about,
-  .stay-text,
-  .footer-links a,
-  .support-list a,
-  .support-list span{
-    font-size:14px;
-  }
+    .home_feature_item {
+        border-right: none !important;
+    }
 
-  .socials a{
-    width:38px;
-    height:38px;
-    font-size:15px;
-  }
+    .home_feature_item:last-child {
+        grid-column: auto;
+    }
 
-  .footer-bottom-links{
-    flex-direction:column;
-    align-items:flex-start;
-    gap:10px;
-  }
+    .home_feature_title {
+        max-width: 100%;
+    }
+
+    .home_live_sports_cards_wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .home_live_sports_card_item {
+        border-right: none !important;
+    }
+
+    .home_live_sports_card_item:not(:last-child) {
+        border-bottom: 1px solid #ececec;
+    }
+
+    .home_live_sports_card_count {
+        font-size: 1.75rem;
+    }
+
+    .logo h2 {
+        font-size: 24px;
+    }
+
+    .footer-about,
+    .stay-text,
+    .footer-links a,
+    .support-list a,
+    .support-list span {
+        font-size: 14px;
+    }
+
+    .socials a {
+        width: 38px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+    .footer-bottom-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
 }
