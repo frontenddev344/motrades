@@ -16,6 +16,10 @@ h6 {
   font-family: "Inter Tight", sans-serif;
   margin: 0;
   letter-spacing: 1px;
+  font-weight:500;
+}
+.py-10{
+  padding:6.25rem 0;
 }
 
 .pt-8 {
