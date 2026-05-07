@@ -2070,5 +2070,29 @@ margin-top:20px;
 
 /* footer css end */
 
-
-
+/* Presells CSS Start */
+.sub-banner {
+  background: url("../images/home_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 35.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+.bg_center_cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.sub-banner h1 {
+  color: #fff;
+  font-size: 3.125rem;
+}
+.sub-banner .jerseymain {
+  margin-top: 4rem;
+}
+/* Presells CSS End */
