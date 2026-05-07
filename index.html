@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/boostrap.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <title>motrades</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-content">
+                       <div class="site_logo">
+                            <a href="./" class="logo">
+                                <img src="assets/images/logo.png" alt="Motrades">
+                            </a>
+                        </div>
+                        <div class="menu-list" id="mySidenavs">
+                            <span class="menu-close" onclick="closeNav()">
+                                <i class="fa-solid fa-xmark"></i>
+                            </span>
+                            <ul>
+                                <li><a href="./" class="active">Live Breaks</a></li>
+                                <li><a href="how-it-works">How It Works</a></li>
+                                <li><a href="watch-live">Watch Live </a></li>
+                                <li><a href="blog">Blog</a></li>
+                                <li><a href="shop-cards">Shop Cards</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-icon">
+                            <span onclick="openNav()">
+                                <i class="fa-solid fa-bars"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-overlay" id="menuOverlay" onclick="closeNav()"></div>
+    </header>
+    <!-- header end -->
+
+    <main class="aoshidden">
+        <!-- Banner Section Start -->
+        <section class="banner_section py-10" style="background-image: url('assets/images/home_banner.jpg');">
+            <div class="container">
+                <div class="banner_wrap">
+                    <div class="banner_content" data-aos="zoom-in" data-aos-duration="1400">
+                        <span> LIVE SPORTS CARD BREAKS DAILY</span>
+                        <h1 class="mb-4">
+                            THE NEXT <span>GENERATION OF SPORTS</span> CARD COLLECTING
+                        </h1>
+
+                        <p class="mb-4">
+                            Join one of the fastest growing sports card communities for live breaks, premium hobby
+                            boxes,
+                            graded cards, and exclusive collector drops.
+                        <div class="featured-highlight">
+                            <div class="featured-highlight-item">
+                                <img src="assets/images/checkmark.png" alt="Featured Highlight 1">
+                                <p>Live Box Breaks Every Week</p>
+                            </div>
+                            <div class="featured-highlight-item">
+                                <img src="assets/images/checkmark.png" alt="Featured Highlight 2">
+                                <p>Premium Hobby & Graded Cards</p>
+                            </div>
+                            <div class="featured-highlight-item">
+                                <img src="assets/images/checkmark.png" alt="Featured Highlight 3">
+                                <p>Trusted Collector Community</p>
+                            </div>
+
+                        </div>
+                        <div class="banner-button">
+                            <a href="shop-cards" class="btn btn-primary">CREATE FREE ACCOUNT</a>
+                            <a href="how-it-works" class="btn btn-secondary">WATCH LIVE BREAKS</a>
+                        </div>
+                    </div>
+                    <div class="stats-wrapper">
+                        <div class="stats-grid">
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+
+                                <div class="stat-content">
+                                    <div class="stat-number">
+                                        <span class="counter" data-target="20">0</span><span>K+</span>
+                                    </div>
+                                    <div class="stat-label">
+                                        Active Collectors
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fa-solid fa-box"></i>
+                                </div>
+
+                                <div class="stat-content">
+                                    <div class="stat-number">
+                                        <span class="counter" data-target="500">0</span><span>K+</span>
+                                    </div>
+                                    <div class="stat-label">
+                                        Cards Shipped
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fa-solid fa-broadcast-tower"></i>
+                                </div>
+
+                                <div class="stat-content">
+                                    <div class="stat-number">
+                                        <span class="counter" data-target="700">0</span><span>+</span>
+                                    </div>
+                                    <div class="stat-label">
+                                        Live Breaks Hosted
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fa-solid fa-gem"></i>
+                                </div>
+
+                                <div class="stat-content">
+                                    <div class="static-text">
+                                        Daily
+                                    </div>
+                                    <div class="stat-label">
+                                        Exclusive Drops
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- banner end -->
+
+        <!-- feature breaking section start -->
+
+        <section class="featured-breaks">
+            <div class="section-heading">
+                <span class="live-tag">LIVE NOW</span>
+                <h2>FEATURED BREAKS</h2>
+                <p>
+                    Jump into today’s hottest sports card breaks featuring premium hobby boxes, rookie chases,
+                    autographs, parallels, and exclusive collector hits.
+                </p>
+            </div>
+
+            <div class="breaks-grid">
+
+                <!-- CARD 1 -->
+                <div class="break-card">
+
+                    <span class="card-badge hot">🔥 HOT DROP</span>
+
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1607083206968-13611e3d76db?q=80&w=800&auto=format&fit=crop"
+                            alt="">
+                    </div>
+
+                    <div class="card-content">
+
+                        <h3>2024 Prizm Football Hobby Break</h3>
+
+                        <p>
+                            Chase rookie autos, silver prizms, and rare NFL inserts from one of the hobby’s most popular
+                            football products.
+                        </p>
+
+                        <div class="card-info">
+
+                            <div class="price">
+                                💎 $49
+                                <span>PER SPOT</span>
+                            </div>
+
+                            <div class="spots">
+                                👥 12
+                                <span>SPOTS LEFT</span>
+                            </div>
+
+                        </div>
+
+                        <div class="card-buttons">
+                            <a href="#" class="btn-primary btn-white">VIEW</a>
+                            <a href="#" class="btn-primary">JOIN BREAK</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="break-card">
+
+                    <span class="card-badge limited">⭐ LIMITED SPOTS</span>
+
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=800&auto=format&fit=crop"
+                            alt="">
+                    </div>
+
+                    <div class="card-content">
+
+                        <h3>Topps Chrome Baseball Break</h3>
+
+                        <p>
+                            Premium baseball hobby break featuring rookie parallels, autos,
+                            and exclusive chrome inserts.
+                        </p>
+
+                        <div class="card-info">
+
+                            <div class="price">
+                                💎 $35
+                                <span>PER SPOT</span>
+                            </div>
+
+                            <div class="spots">
+                                👥 8
+                                <span>SPOTS LEFT</span>
+                            </div>
+
+                        </div>
+
+                        <div class="card-buttons">
+                            <a href="#" class="btn-primary btn-white">VIEW</a>
+                            <a href="#" class="btn-primary">JOIN BREAK</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="break-card">
+
+                    <span class="card-badge breaking">🟣 BREAKING TONIGHT</span>
+
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop"
+                            alt="">
+                    </div>
+
+                    <div class="card-content">
+
+                        <h3>2024 Mosaic Basketball Break</h3>
+
+                        <p>
+                            Look for rookie color blasts, numbered parallels, and superstar NBA autographs.
+                        </p>
+
+                        <div class="card-info">
+
+                            <div class="price">
+                                💎 $59
+                                <span>PER SPOT</span>
+                            </div>
+
+                            <div class="spots">
+                                👥 15
+                                <span>SPOTS LEFT</span>
+                            </div>
+
+                        </div>
+
+                        <div class="card-buttons">
+                            <a href="#" class="btn-primary btn-white">VIEW</a>
+                            <a href="#" class="btn-primary">JOIN BREAK</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="break-card">
+
+                    <span class="card-badge demand">⚡ HIGH DEMAND</span>
+
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1561715276-a2d087060f1d?q=80&w=800&auto=format&fit=crop"
+                            alt="">
+                    </div>
+
+                    <div class="card-content">
+
+                        <h3>National Treasures Football Break</h3>
+
+                        <p>
+                            Premium football break loaded with RPA, patch autos, and one-of-one cards.
+                        </p>
+
+                        <div class="card-info">
+
+                            <div class="price">
+                                💎 $99
+                                <span>PER SPOT</span>
+                            </div>
+
+                            <div class="spots">
+                                👥 6
+                                <span>SPOTS LEFT</span>
+                            </div>
+
+                        </div>
+
+                        <div class="card-buttons">
+                            <a href="#" class="btn-primary btn-white">VIEW</a>
+                            <a href="#" class="btn-primary">JOIN BREAK</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- feature breaking section end -->
+
+
+        <!-- Feature Bar Section Start -->
+        <section class="feature-strip section-bg">
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-video"></i>
+                </div>
+
+                <div class="feature-content">
+                    <h4>DAILY LIVE BREAKS</h4>
+                    <p>New breaks every weekday</p>
+                </div>
+            </div>
+
+            <div class="feature-divider"></div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-cube"></i>
+                </div>
+
+                <div class="feature-content">
+                    <h4>PREMIUM HOBBY PRODUCTS</h4>
+                    <p>Top brands & exclusive releases</p>
+                </div>
+            </div>
+
+            <div class="feature-divider"></div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+
+                <div class="feature-content">
+                    <h4>FAST WEEKLY SHIPPING</h4>
+                    <p>Cards shipped with care</p>
+                </div>
+            </div>
+
+            <div class="feature-divider"></div>
+
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div class="feature-content">
+                    <h4>TRUSTED COLLECTOR COMMUNITY</h4>
+                    <p>Join thousands of collectors</p>
+                </div>
+            </div>
+        </section>
+        <!-- Feature Bar Section End -->
+
+        <!-- Homepage CTA Section Start -->
+        <section class="home_cta py-10" style="background-image: url(assets/images/home_banner.jpg);">
+            <div class="home_cta_content">
+                <h2 class="home_cta_title">
+                    READY FOR YOUR <br>
+                    NEXT BIG HIT?
+                </h2>
+                <p class="home_cta_text">
+                    Explore premium sports card breaks and
+                    join collectors chasing the hobby’s biggest cards.
+                </p>
+                <div class="home_cta_buttons">
+                    <a href="#" class="btn-primary btn-white">
+                        SHOP ALL BREAKS
+                    </a>
+                    <a href="#" class="btn-primary">
+                        ▶ WATCH LIVE
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Homepage CTA Section End -->
+
+
+
+        <!-- about motrades section end -->
+
+        <section class="about-section">
+            <div class="container">
+
+                <!-- TOP SECTION -->
+                <div class="top-section">
+
+                    <!-- LEFT -->
+                    <div class="content">
+                        <span class="tag">ABOUT MOTRADES</span>
+                        <h1>
+                            WE LIVE AND BREATHE <br>
+                            <span>SPORTS CARDS</span>
+                        </h1>
+
+                        <p class="content-para">
+                            Motrades is built for collectors who love the excitement of live sports card breaks,
+                            premium hobby products, rare rookie cards, and community-driven collecting experiences.
+                        </p>
+
+                        <p class="content-para">
+                            Our platform brings together collectors from around the world through daily live breaks,
+                            exclusive product drops, and interactive hobby discussions.
+                        </p>
+
+                        <!-- FEATURES -->
+                        <div class="features">
+                            <div class="feature">Trusted by Collectors</div>
+                            <div class="feature">Community Driven</div>
+                            <div class="feature">Safe & Secure</div>
+                            <div class="feature">Top-Rated</div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="video-box">
+                        <img src="https://img.youtube.com/vi/ysz5S6PUM-U/maxresdefault.jpg" alt="video">
+                        <button class="play-btn">▶</button>
+                    </div>
+
+                </div>
+
+                <!-- BOTTOM SECTION -->
+                <div class="bottom-section">
+
+                    <div class="bottom-content">
+                        <span class="tag red">DAILY LIVE EVENTS</span>
+                        <h2>
+                            LIVE SPORTS CARD <br>
+                            BREAKS <span>EVERY DAY</span>
+                        </h2>
+
+                        <p>
+                            Join live box breaks, interact with collectors in real time, and chase rare cards,
+                            autographs, numbered parallels, and massive hobby hits.
+                        </p>
+                        <p>
+                            Whether you collect football, basketball, baseball, soccer, hockey, or Pokémon cards,
+                            there’s always a new break happening at Motrades.
+                        </p>
+
+                        <div class="buttons">
+                            <a href="#" class="btn-primary">SHOP BREAKS</a>
+                            <a href="#" class="btn-secondary">JOIN COMMUNITY</a>
+                        </div>
+                    </div>
+
+                    <div class="laptop-img">
+                        <img src="assets/images/home_banner.jpg" alt="live">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="home_features">
+            <div class="home_features_wrapper">
+
+                <div class="home_feature_item">
+
+                    <div class="home_feature_icon">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+
+                    <h3 class="home_feature_title">
+                        Live HD Streaming
+                    </h3>
+                </div>
+
+                <div class="home_feature_item">
+                    <div class="home_feature_icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <h3 class="home_feature_title">
+                        Real-Time Collector Chat
+                    </h3>
+                </div>
+
+
+                <div class="home_feature_item">
+                    <div class="home_feature_icon">
+                        <i class="fa-solid fa-cube"></i>
+                    </div>
+                    <h3 class="home_feature_title">
+                        Premium Hobby Products
+                    </h3>
+                </div>
+
+
+                <div class="home_feature_item">
+                    <div class="home_feature_icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3 class="home_feature_title">
+                        Fast Weekly Shipping
+                    </h3>
+                </div>
+
+                <div class="home_feature_item">
+                    <div class="home_feature_icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="home_feature_title">
+                        Fair Randomization System
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="home_live_sports_cards">
+            <div class="home_live_sports_cards_wrapper">
+
+                <div class="home_live_sports_card_item">
+                    <div class="home_live_sports_card_icon">
+                        <i class="fa-solid fa-tower-broadcast"></i>
+                    </div>
+
+                    <h3 class="home_live_sports_card_count">
+                        <span class="home_counter" data-target="700">0</span>+
+                    </h3>
+
+                    <h4 class="home_live_sports_card_title">LIVE BREAKS HOSTED</h4>
+
+                    <p class="home_live_sports_card_text">
+                        And counting every week
+                    </p>
+                </div>
+
+                <div class="home_live_sports_card_item">
+                    <div class="home_live_sports_card_icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <h3 class="home_live_sports_card_count">
+                        <span class="home_counter" data-target="20">0</span>K+
+                    </h3>
+
+                    <h4 class="home_live_sports_card_title">ACTIVE COLLECTORS</h4>
+
+                    <p class="home_live_sports_card_text">
+                        From around the world
+                    </p>
+                </div>
+
+                <div class="home_live_sports_card_item">
+                    <div class="home_live_sports_card_icon">
+                        <i class="fa-solid fa-box"></i>
+                    </div>
+
+                    <h3 class="home_live_sports_card_count">
+                        <span class="home_counter" data-target="500">0</span>K+
+                    </h3>
+
+                    <h4 class="home_live_sports_card_title">CARDS SHIPPED</h4>
+
+                    <p class="home_live_sports_card_text">
+                        Safely delivered
+                    </p>
+                </div>
+
+                <div class="home_live_sports_card_item">
+                    <div class="home_live_sports_card_icon">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                    </div>
+
+                    <h3 class="home_live_sports_card_count">DAILY</h3>
+
+                    <h4 class="home_live_sports_card_title">NEW DROPS</h4>
+
+                    <p class="home_live_sports_card_text">
+                        New breaks & products daily
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <!-- about motrades section end -->
+
+
+
+        <!-- why choose us section start -->
+
+        <div class="choose-sec py-5">
+            <div class="container">
+                <div class="site-heading">
+                    <p>WHY CHOOSE MOTRADES?</p>
+                    <h2>
+                        BUILT FOR <span>COLLECTORS WHO</span> EXPECT MORE
+                    </h2>
+                    <p>
+                        Motrades combines trusted service, premium products, and a passionate collector community to
+                        create one of the best live sports card experiences online.
+                    </p>
+                </div>
+                <div class="row g-4  mb-5">
+                    <div class="col-md-4">
+                        <div class="choose-wrap">
+                            <div class="choose-box">
+                                <div class="choose-icn">
+                                    <img src="assets/images/integrity.png" alt="">
+                                </div>
+                                <div class="choose-text">
+                                    <h5 class="mb-2">
+                                        TRUSTED SERVICE
+                                    </h5>
+                                    <p>
+                                        We focus on transparency, fair breaks, secure transactions, and honest
+                                        communication with every collector in our community.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="choose-wrap">
+                            <div class="choose-box">
+                                <div class="choose-icn">
+                                    <img src="assets/images/competitive.png" alt="">
+                                </div>
+                                <div class="choose-text">
+                                    <h5 class="mb-2">
+                                        COMPETITIVE PRICING
+                                    </h5>
+                                    <p>
+                                        Our team works directly with top hobby suppliers to provide strong value across
+                                        breaks, hobby boxes, and premium releases.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="choose-wrap">
+                            <div class="choose-box">
+                                <div class="choose-icn">
+                                    <img src="assets/images/best-seller.png" alt="">
+                                </div>
+                                <div class="choose-text">
+                                    <h5 class="mb-2">
+                                        PREMIUM QUALITY
+                                    </h5>
+                                    <p>
+                                        From packaging and shipping to live break production, every detail is designed
+                                        to deliver a premium collector experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="choose-wrap">
+                            <div class="choose-box">
+                                <div class="choose-icn">
+                                    <img src="assets/images/accountability.png" alt="">
+                                </div>
+                                <div class="choose-text">
+                                    <h5 class="mb-2">
+                                        FULL TRANSPARENCY
+                                    </h5>
+                                    <p>
+                                        All live breaks are streamed publicly with real-time updates, fair
+                                        randomization, and clear break rules for every participant.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="choose-wrap">
+                            <div class="choose-box">
+                                <div class="choose-icn">
+                                    <img src="assets/images/scientist.png" alt="">
+                                </div>
+                                <div class="choose-text">
+                                    <h5 class="mb-2">
+                                        HOBBY EXPERTISE
+                                    </h5>
+                                    <p>
+                                        Our experienced team follows market trends, rookie performances, grading
+                                        updates, and product releases every single day.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="choose-wrap">
+                            <div class="choose-box">
+                                <div class="choose-icn">
+                                    <img src="assets/images/postage-stamp.png" alt="">
+                                    <!-- <div class="choose-icon-img" style="background-image: url('assets/images/fav-icon6.png');"></div> -->
+                                </div>
+                                <div class="choose-text">
+                                    <h5 class="mb-2">
+                                        COLLECTOR COMMUNITY
+                                    </h5>
+                                    <p>
+                                        Join a growing community of sports card collectors sharing big hits, hobby
+                                        discussions, market insights, and exclusive events.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- why choose us section end -->
+
+
+        <!-- best place to buy section start -->
+                 <section class="home_online_cards">
+
+            <div class="home_online_cards_wrap">
+                <div class="home_online_cards_left">
+
+                    <div class="home_online_cards_small_title">
+                        WHY COLLECTORS CHOOSE MOTRADES
+                    </div>
+
+                    <h1 class="home_online_cards_main_title">
+                        THE SMARTER WAY TO BUY <span>SPORTS CARDS ONLINE</span>
+                    </h1>
+
+                    <p class="home_online_cards_description">
+                        Motrades delivers premium sports card breaks, hobby boxes,
+                        graded cards, and exclusive collector experiences designed
+                        for modern collectors who want value, excitement, and trusted service.
+                    </p>
+
+                    <p class="home_online_cards_description">
+                        Unlike traditional marketplaces, Motrades combines live entertainment,
+                        collector interaction, and premium hobby products into one
+                        community-driven platform.
+                    </p>
+
+                    <a href="#" class="btn-primary mt-3">
+                        🛒 SHOP BREAKS
+                    </a>
+
+                </div>
+
+                <div class="home_online_cards_right">
+
+                    <div class="home_online_cards_winner">
+                        TRUSTED BY COLLECTORS
+                    </div>
+
+                    <div class="home_online_cards_brand">
+                        MOTRADES
+                    </div>
+
+                    <div class="home_online_cards_subtitle">
+                        PREMIUM SPORTS CARD BREAKS <br>
+                        & COLLECTOR EXPERIENCES
+                    </div>
+
+                    <div class="home_online_cards_logos">
+
+                        <div class="home_online_cards_logo_box">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay"
+                                class="home_online_cards_logo_img">
+                        </div>
+
+                        <div class="home_online_cards_logo_box">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"
+                                alt="Facebook" class="home_online_cards_logo_img facebook_logo">
+                        </div>
+
+                        <div class="home_online_cards_logo_box">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+                                alt="Instagram" class="home_online_cards_logo_img instagram_logo">
+                        </div>
+
+                        <div class="home_online_cards_logo_box">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon"
+                                class="home_online_cards_logo_img amazon_logo">
+                        </div>
+
+                    </div>
+                    <div class="home_online_cards_products">
+
+                        <img src="assets/images/home_banner.jpg" alt="Sports Cards Collection"
+                            class="home_online_cards_products_img">
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="customers-section">
+            <div class="container">
+                <div class="customers-section-main">
+                    <!-- LEFT -->
+                    <div class="left-content">
+                        <div class="icon">🎁</div>
+
+                        <h3>
+                            OUR CUSTOMERS <br>
+                            FIND THOSE <span>#BIGHITTIES</span>
+                        </h3>
+
+                        <p>
+                            Case hits are what you want. At Motrades, we deliver quality products with the best
+                            chance of scoring big during each sports card break.
+                        </p>
+
+                        <a href="#" class="btn">SHOP BREAKS</a>
+                    </div>
+
+                    <!-- CENTER IMAGES -->
+                    <div class="card-images">
+                        <img src="assets/images/home_banner.jpg" class="card card1">
+                        <!-- <img src="assets/images/home_banner.jpg" class="card card2">
+                        <img src="assets/images/home_banner.jpg" class="card card3"> -->
+                    </div>
+
+                    <!-- RIGHT -->
+                    <div class="right-content">
+                        <div class="icon">🏆</div>
+
+                        <h3>
+                            WHY SHOP WITH <br>
+                            <span>MOTRADES?</span>
+                        </h3>
+
+                        <ul>
+                            <li>Best value compared to other breakers</li>
+                            <li>Premium products at fair prices</li>
+                            <li>Trusted by thousands of collectors</li>
+                            <li>Fast and secure shipping</li>
+                            <li>Top-rated customer support</li>
+                        </ul>
+
+                        <a href="#" class="btn">SHOP BREAKS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="next-gen">
+  <div class="next-gen__overlay"></div>
+
+  <div class="next-gen__container">
+
+    <!-- LEFT CONTENT -->
+    <div class="next-gen__content">
+      <h2>
+        JOIN THE NEXT GENERATION <br>
+        OF <span>COLLECTORS</span>
+      </h2>
+
+      <p>
+        Become part of a growing sports card community built around live breaks,
+        hobby discussions, collector rewards, and premium experiences.
+      </p>
+
+      <div class="next-gen__buttons">
+        <a href="#" class="btn-primary">CREATE FREE ACCOUNT</a>
+        <a href="#" class="btn-outline">JOIN COMMUNITY</a>
+      </div>
+
+      <!-- FEATURES -->
+      <div class="next-gen__features">
+        <div>📺 Live Breaks</div>
+        <div>💬 Community Chat</div>
+        <div>🎁 Giveaways</div>
+        <div>🏆 Collector Rewards</div>
+        <div>⭐ Exclusive Perks</div>
+      </div>
+    </div>
+
+    <!-- RIGHT IMAGES -->
+    <div class="next-gen__visual">
+      <img src="assets/images/home_banner.jpg" class="phone">
+      <!-- <img src="https://via.placeholder.com/200x300" class="card card-left">
+      <img src="https://via.placeholder.com/200x300" class="card card-right"> -->
+    </div>
+
+  </div>
+</section>
+
+        <!-- best place to buy section start -->
+
+        <!-- footer section start -->
+
+              <footer class="footer">
+
+            <div class="container">
+
+                <div class="footer-top">
+
+                    <!-- COLUMN 1 -->
+                    <div class="footer-col">
+
+                        <div class="logo">
+                         <img src="assets/images/logo.png" alt="">
+                        </div>
+
+                        <p class="footer-about">
+                            Your trusted destination for live sports card breaks,
+                            premium hobby products, and a community built for collectors.
+                        </p>
+
+                        <div class="socials">
+                            <a href="#" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="#" class="youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+
+                            <a href="#" class="discord">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- COLUMN 2 -->
+                    <div class="footer-col">
+
+                        <h3 class="footer-title">Quick Links</h3>
+
+                        <ul class="footer-links">
+
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Home</a>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Live Breaks</a>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">How It Works</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Watch Live</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Blog</a>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Shop Cards</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- COLUMN 3 -->
+                    <div class="footer-col">
+
+                        <h3 class="footer-title">Support</h3>
+
+                        <ul class="support-list">
+
+                            <li>
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:support@motrades.com">
+                                    support@motrades.com
+                                </a>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-truck"></i>
+                                <a href="mailto:shipping@motrades.com">
+                                    shipping@motrades.com
+                                </a>
+                            </li>
+
+                            <li>
+                                <i class="far fa-circle-question"></i>
+                                <a href="#">Help Center</a>
+                            </li>
+
+                            <li>
+                                <i class="far fa-clock"></i>
+                                <span>Mon - Sat: 10AM - 8PM EST</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <!-- COLUMN 4 -->
+                    <div class="footer-col">
+
+                        <h3 class="footer-title">Stay Connected</h3>
+
+                        <p class="stay-text">
+                            Follow us for live break updates, news,
+                            giveaways, and exclusive drops.
+                        </p>
+
+                        <div class="socials">
+
+                            <a href="#" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="#" class="youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+
+                            <a href="#" class="discord">
+                                <i class="fab fa-discord"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- BOTTOM -->
+                <div class="footer-bottom">
+                    <p>© 2026 <a href="./">Motrades.</a> All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Shipping Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- footer section end -->
+
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/aos.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
