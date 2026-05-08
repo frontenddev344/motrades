@@ -351,7 +351,7 @@
     }
 
     .home_online_cards_logos {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .home_online_cards_logo_box {
