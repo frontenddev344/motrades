@@ -2403,4 +2403,8 @@ margin-top:20px;
   color: #ef450e;
 }
 
+section.pressells-section .right {
+    max-width: 600px;
+}
+
 /* why presell section css end */
