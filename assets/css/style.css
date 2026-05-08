@@ -61,7 +61,14 @@ body {
   background-color: #fff;
   font-family: "Montserrat", sans-serif;
 }
-
+.section_heading {
+  font-size: 2.5rem;
+  color: var(--bg-dark);
+  font-weight: 600;
+}
+.white{
+  color: #fff;
+}
 
 .section-bg {
   background-color: #141719;
@@ -71,11 +78,7 @@ body {
   background-color: #1c1d20;
 }
 
-.section_heading {
-  font-size: 2.5rem;
-  color: var(--bg-dark);
-  font-weight: 600;
-}
+
 
 
 .main_content {
@@ -286,29 +289,23 @@ span.menu-close {
   display: inline-block;
 }
 
-.site_logo a {
-  background-image: url("../images/main-logo.png");
-  background-position: left center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 6.75rem;
-  width: 7.75rem;
-  display: inline-block;
+.site_logo img {
+  max-width: 7rem;
 }
-
 
 /* header css end */
 
 /* Banner CSS Start */
 .banner_section {
   height: 100vh;
-  background-color: #0000008a;
+  background-color: #000000a6;
   background-blend-mode: multiply;
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  padding: 6rem 0 4rem 0;
 }
 
 .banner_wrap {
@@ -322,10 +319,11 @@ span.menu-close {
 .banner_content h1 {
   font-size: 3.2rem;
   color: #fff;
-  line-height: 1;
+  line-height: 1.3;
   max-width: 56.625rem;
   letter-spacing: 0.5px;
   text-transform: capitalize;
+  font-weight: 600;
 }
 
 
@@ -368,6 +366,10 @@ span.menu-close {
   isolation: isolate;
   font-size: 0.875rem;
   border-radius: 0 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .btn-primary::before,
@@ -447,7 +449,7 @@ span.menu-close {
 .stats-wrapper {
   width: 100%;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 .stats-grid {
@@ -561,9 +563,9 @@ span.menu-close {
 }
 
 .feature-icon {
-  width: 46px;
-  height: 46px;
-  min-width: 46px;
+  width: 2.5rem;
+  height: 2.5rem;
+  min-width: 2.5rem;
 
   border-radius: 50%;
 
@@ -580,6 +582,9 @@ span.menu-close {
 
   box-shadow:
     0 0 18px rgba(37, 99, 235, 0.35);
+}
+.feature-icon i {
+  font-size: 15px;
 }
 
 .feature-content h4 {
@@ -630,9 +635,6 @@ span.menu-close {
 
 /* featured breaks css start */
 
-.featured-breaks {
-  padding: 80px 20px;
-}
 
 .section-heading {
   text-align: center;
@@ -654,8 +656,9 @@ span.menu-close {
 
 .section-heading p {
   color: #667085;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.7;
+  font-weight: 500;
 }
 
 .breaks-grid {
@@ -725,7 +728,7 @@ span.menu-close {
 }
 
 .break-card .card-content h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.2;
   color: #111827;
   margin-bottom: 14px;
@@ -803,7 +806,7 @@ span.menu-close {
   min-height: 260px;
   margin: auto;
   overflow: hidden;
-  background: rgba(0 0 0/50%);
+  background: rgba(0 0 0/70%);
   background-blend-mode: multiply;
   display: flex;
   align-items: center;
@@ -836,7 +839,7 @@ span.menu-close {
   color: #fff;
   font-size: 42px;
   line-height: 1.05;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -1px;
   margin-bottom: 14px;
   text-transform: uppercase;
@@ -953,7 +956,7 @@ span.menu-close {
 /* about motrades section css start */
 
 .about-section {
-  padding: 60px 20px;
+  padding: 3.75rem 0;
   background: #f7f7f7;
 }
 
@@ -975,12 +978,9 @@ span.menu-close {
   letter-spacing: 1px;
 }
 
-.content h1 {
-  font-size: 40px;
-  margin: 10px 0;
-}
 
-.content h1 span {
+
+.content h2 span {
   color: #ef450e;
 }
 
@@ -1036,7 +1036,7 @@ span.menu-close {
   gap: 40px;
   background: #0b1c3d;
   color: #fff;
-  padding: 40px;
+  padding: 2.5rem;
   border-radius: 10px;
 }
 
@@ -1044,9 +1044,7 @@ span.menu-close {
   flex: 1;
 }
 
-.bottom-content h2 {
-  font-size: 32px;
-}
+
 
 .bottom-content h2 span {
   color: #ef450e;
@@ -1063,7 +1061,7 @@ span.menu-close {
 
 .laptop-img img {
   width: 100%;
-  height: 350px;
+  height: 21.875rem;
 }
 
 p.content-para {
@@ -1239,7 +1237,7 @@ p.content-para {
   height: 100%;
   width: 100%;
   background-color: #000;
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
 .choose-wrap {
@@ -1331,13 +1329,16 @@ p.content-para {
 }
 
 .choose-text h5 {
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 1.375rem;
+  font-weight: 600;
   line-height: 27px;
 }
 
 .site-heading p {
   text-align: center;
+  color: #fff;
+  z-index: 100;
+  position: relative;
 }
 
 .site-heading {
@@ -1400,14 +1401,6 @@ p.content-para {
   background: #ef450e;
 }
 
-.home_online_cards_main_title {
-  font-size: 2.5rem;
-  line-height: 0.95;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: #000;
-  line-height: 1.1;
-}
 
 .home_online_cards_main_title span {
   color: #ef450e;
@@ -1460,7 +1453,7 @@ p.content-para {
 
 .home_online_cards_brand {
   font-size: 3.75rem;
-  font-weight: 900;
+  font-weight: 600;
   color: #000;
   margin-bottom: 0.625rem;
 }
@@ -1472,7 +1465,7 @@ p.content-para {
 .home_online_cards_subtitle {
   color: #666;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.5;
   margin-bottom: 1.875rem;
 }
@@ -1734,7 +1727,7 @@ p.content-para {
 .next-gen__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(5, 15, 40, 0.95), rgba(5, 15, 40, 0.6));
+  background: linear-gradient(90deg, rgba(5, 15, 40, 0.95), rgba(5, 15, 40, 0.8));
 }
 
 .next-gen__container {
@@ -1750,10 +1743,6 @@ p.content-para {
   flex: 1;
 }
 
-.next-gen__content h2 {
-  font-size: 36px;
-  margin-bottom: 15px;
-}
 
 .next-gen__content h2 span {
   color: #ef450e;
@@ -1805,6 +1794,7 @@ p.content-para {
   margin-top: 30px;
   flex-wrap: wrap;
   font-size: 14px;
+  justify-content: center;
 }
 
 .next-gen__features div {
@@ -1855,7 +1845,7 @@ p.content-para {
 }
 .footer {
   background: linear-gradient(180deg, #07111f 0%, #020817 100%);
-  padding: 70px 6% 30px;
+  padding: 4.375rem 0;
   position: relative;
   overflow: hidden;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
@@ -2132,6 +2122,7 @@ p.content-para {
   z-index: 2;
   max-width: 850px;
   margin: auto;
+  margin-top: 6rem;
 }
 
 /* Small label */
@@ -2177,25 +2168,7 @@ p.content-para {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .sub-banner {
-    min-height: 28rem;
-    padding: 0 20px;
-  }
 
-  .sub-banner h1 {
-    font-size: 3rem;
-  }
-
-  .sub-banner p {
-    font-size: 1rem;
-  }
-
-  .banner-label::before,
-  .banner-label::after {
-    width: 40px;
-  }
-}
 
 .presell-section {
   background: #f5f5f5;
@@ -2269,7 +2242,6 @@ p.content-para {
 
 .presell-steps {
   background: #f5f5f5;
-  padding: 60px 20px;
   text-align: center;
 }
 
@@ -2387,7 +2359,6 @@ p.content-para {
 .bottom-bar {
   background: #f5f5f5;
   margin-top: 20px;
-  padding: 50px 0;
 }
 
 .bar-content {
@@ -2510,7 +2481,7 @@ section.pressells-section .right {
 
 .price {
   color: var(--primary);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1;
   margin-bottom: 6px;
@@ -2532,6 +2503,7 @@ section.pressells-section .right {
   display: flex;
   gap: 10px;
   margin-top: auto;
+  justify-content: center;
 }
 
 .presells_product_sec .row.g-4 {
@@ -2550,9 +2522,9 @@ section.pressells-section .right {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 .cards {
@@ -2722,12 +2694,6 @@ section.pressells-section .right {
   margin-bottom: 4px;
 }
 
-.price {
-  color: #1452ff;
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 16px;
-}
 
 .spots {
   color: #111827;

@@ -44,6 +44,11 @@
     .footer-col:nth-child(2)::after {
         display: none;
     }
+
+    .breaks-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 }
 
 
@@ -84,7 +89,9 @@
         width: 100%;
         transition: width 0.3s ease;
     }
-
+    section.pressells-section .right {
+        max-width: 400px;
+    }
 
     .menu-list ul {
         flex-direction: column;
@@ -235,9 +242,36 @@
     .presell-steps .steps-wrapper::before {
         display: none;
     }
+
     .cards {
         grid-template-columns: repeat(2, 1fr);
-      }
+    }
+
+    .top-section {
+        flex-direction: column-reverse;
+    }
+
+    .bottom-section {
+
+        flex-direction: column-reverse;
+    }
+
+    .laptop-img {
+        width: 100%;
+    }
+    .customers-section-main {
+        flex-direction: column-reverse;
+    }
+    .section_heading {
+        font-size: 2.2rem;
+    }
+    .bar-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .py-7 {
+        padding: 3.375rem 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -249,7 +283,9 @@
     .banner_section {
         height: 100%;
     }
-
+    section.pressells-section .right {
+        max-width: 100%;
+    }
     .stats-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -269,6 +305,7 @@
     .banner_content p {
         font-size: 1rem;
     }
+
 
     .banner_wrap {
         padding: 0;
@@ -374,10 +411,7 @@
         margin-top: 2rem;
     }
 
-    .footer {
-        padding: 60px 24px 30px;
-    }
-
+ 
     .footer-top {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -392,7 +426,6 @@
         align-items: flex-start;
     }
 
-    /* lak */
     .customers-section h3 {
         font-size: 18px;
     }
@@ -401,14 +434,12 @@
         width: 100%;
     }
 
-    .next-gen__content h2 {
-        font-size: 26px;
-    }
 
     .next-gen__buttons a {
         display: block;
         margin-bottom: 10px;
     }
+
     .presell-section .presell-list li {
         text-align: left;
     }
@@ -418,91 +449,123 @@
     }
 
 
-      .top-content {
-    flex-direction: column;
-    text-align: center;
-  }
+    .top-content {
+        flex-direction: column-reverse !important;
+        text-align: center;
+    }
 
-  .left {
-    flex-direction: column;
-    align-items: center;
-  }
+    .left {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  .bar-content {
-    flex-direction: column;
-    text-align: center;
-  }
+    .bar-content {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .buttons {
-    flex-direction: column;
-    width: 100%;
-  }
+    .buttons {
+        flex-direction: column;
+        width: 100%;
+    }
 
-  .btn {
-    width: 100%;
-  }
-  .card-inner {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+    .btn {
+        width: 100%;
+    }
 
-  .product-image {
-    width: 120px;
-  }
-  .top-content {
-    flex-direction: column;
-    text-align: center;
-  }
+    .card-inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-  .left {
-    flex-direction: column;
-    align-items: center;
-  }
+    .product-image {
+        width: 120px;
+    }
 
-  .bar-content {
-    flex-direction: column;
-    text-align: center;
-  }
+    .top-content {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .buttons {
-    flex-direction: column;
-    width: 100%;
-  }
+    .left {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
 
-  .btn {
-    width: 100%;
-  }
+    .bar-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
     .cards {
-    grid-template-columns: 1fr;
-  }
+        grid-template-columns: 1fr;
+    }
 
-  .card {
-    text-align: center;
-  }
+    .card {
+        text-align: center;
+    }
 
-  .card ul,
-  .card ol {
-    text-align: left;
-  }
-  .cards {
-    grid-template-columns: 1fr;
-  }
+    .card ul,
+    .card ol {
+        text-align: left;
+    }
 
-  .card {
-    text-align: center;
-  }
-  .multi-section .cards {
-    grid-template-columns: 1fr;
-  }
+    .cards {
+        grid-template-columns: 1fr;
+    }
 
-  .multi-section .steps {
-    flex-direction: column;
-  }
+    .card {
+        text-align: center;
+    }
 
-  .multi-section .step {
-    width: 100%;
-  }
+    .multi-section .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .multi-section .steps {
+        flex-direction: column;
+    }
+
+    .multi-section .step {
+        width: 100%;
+    }
+
+    .site_logo img {
+        max-width: 6rem;
+    }
+    .section_heading {
+        font-size: 2rem;
+    }
+    .home_online_cards_wrap {
+        flex-direction: column-reverse;
+    }
+    .sub-banner {
+        padding: 0 20px;
+      }
+    
+      .sub-banner h1 {
+        font-size: 3rem;
+      }
+    
+      .sub-banner p {
+        font-size: 1rem;
+      }
+    
+      .banner-label::before,
+      .banner-label::after {
+        width: 40px;
+      }
 }
 
 
@@ -510,9 +573,14 @@
     .feature-strip {
         padding: 20px;
     }
-
+    .customers-section-main {
+        gap: 10px;
+    }
     .banner_content h1 {
         font-size: 2rem;
+    }
+    .next-gen__container {
+        gap: 10px;
     }
 
     .feature-item {
@@ -552,7 +620,12 @@
         align-items: start;
         gap: 0;
     }
-
+    .sub-banner h1 {
+        font-size: 2rem;
+    }
+    .banner-content {
+        margin-top: 4rem;
+    }
     .stat-number,
     .static-text {
         font-size: 1.2rem;
@@ -567,6 +640,47 @@
         flex: 0 0 100%;
     }
 
+    .py-10 {
+        padding: 4.25rem 0;
+    }
+
+    .breaks-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-section {
+        padding: 2.75rem 0;
+    }
+    .bottom-section {
+        padding: 1rem;
+      }
+      .laptop-img img {
+        height: 16.875rem;
+    } 
+    .py-7 {
+        padding: 3.375rem 0;
+    }
+    .section_heading {
+        font-size: 1.8rem;
+    }
+    .break-card .card-content h3 {
+        font-size: 1.3rem;
+       }
+       .buttons {
+        gap: 0;
+    }
+    .banner-label::before, .banner-label::after {
+        width: 10px;
+    }
+    .banner-label {
+           font-size: 0.7rem;
+    }
+    .product-description {
+        min-height: 0;
+    }
+    .price {
+          font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -605,6 +719,7 @@
     .logo h2 {
         font-size: 24px;
     }
+    
 
     .footer-about,
     .stay-text,
