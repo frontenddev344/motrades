@@ -3,11 +3,14 @@
   --primary-light: #ff6a3d;
   --bg-dark: #020817;
   --bg-light: #07111f;
+  --white: #fff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 h1,
 h2,
@@ -17,8 +20,14 @@ h5,
 h6 {
   font-family: "Plus Jakarta Sans", sans-serif;
   margin: 0;
-  letter-spacing: 1px;
   font-weight: 500;
+}
+.py-7 {
+  padding: 4.375rem 0;
+}
+p{
+  margin: 0;
+  padding: 0;
 }
 
 .py-10 {
@@ -37,6 +46,9 @@ h6 {
   padding-left: 5rem;
   padding-bottom: 5rem;
 }
+.theme{
+  color:var(--primary);
+}
 
 * {
   margin: 0;
@@ -47,7 +59,7 @@ h6 {
 
 body {
   background-color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 
@@ -330,12 +342,12 @@ span.menu-close {
   gap: 0.9375rem;
 }
 
-.banner_content > span {
+.banner_content>span {
   color: #fff;
   display: inline-block;
   padding: 7px 14px;
   background: radial-gradient(circle at center, #ef7f59 0%, #ef450e 100%);
-  margin-bottom:15px;
+  margin-bottom: 15px;
   display: inline-block;
 }
 
@@ -344,7 +356,8 @@ span.menu-close {
   background: transparent;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
   color: #fff;
   display: inline-block;
   padding: 0.625rem 1.25rem;
@@ -354,7 +367,7 @@ span.menu-close {
   position: relative;
   isolation: isolate;
   font-size: 0.875rem;
-  border-radius:0 0.625rem;
+  border-radius: 0 0.625rem;
 }
 
 .btn-primary::before,
@@ -414,7 +427,7 @@ span.menu-close {
 
 .featured-highlight-item {
   display: flex;
-  align-items: center;
+  align-items: start;
   text-align: center;
   gap: 10px;
   margin-top: 15px;
@@ -636,13 +649,6 @@ span.menu-close {
   font-weight: 700;
   padding: 6px 12px;
   border-radius: 30px;
-  margin-bottom: 14px;
-}
-
-.section-heading h2 {
-  font-size: 48px;
-  font-weight: 900;
-  color: #101828;
   margin-bottom: 14px;
 }
 
@@ -1844,7 +1850,9 @@ p.content-para {
 .footer-col .logo img {
   max-width: 8rem;
 }
-
+.footer-bottom p a {
+  color:var(--primary);
+}
 .footer {
   background: linear-gradient(180deg, #07111f 0%, #020817 100%);
   padding: 70px 6% 30px;
@@ -1929,10 +1937,10 @@ p.content-para {
 
 
 .footer-title {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 400;
   margin-bottom: 22px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 0.5px;
   position: relative;
   display: inline-block;
@@ -2153,11 +2161,10 @@ p.content-para {
 .sub-banner h1 {
   color: #fff;
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  letter-spacing: 2px;
 }
 
 
@@ -2563,13 +2570,13 @@ section.pressells-section .right {
   flex-direction: column;
   justify-content: flex-start;
   height: 100%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .icon {
@@ -2582,7 +2589,7 @@ section.pressells-section .right {
   font-size: 16px;
   margin-bottom: 12px;
   font-weight: 600;
-} 
+}
 
 .card p {
   font-size: 14px;
@@ -2604,13 +2611,13 @@ section.pressells-section .right {
 }
 
 .card ul {
-  list-style: none; 
+  list-style: none;
   padding-left: 0;
 }
 
 .card ul li {
   position: relative;
-  padding-left: 20px; 
+  padding-left: 20px;
   margin-bottom: 8px;
 }
 
@@ -2624,4 +2631,495 @@ section.pressells-section .right {
   background-color: #ef450e;
   border-radius: 50%;
 }
+
 /* how it works page css end */
+
+
+
+/* Shop Break CSS Start */
+#cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  display: flex;
+}
+
+.filter-wrapper {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+}
+
+.filter-select {
+  height: 48px;
+  border: 1px solid #d7dce5;
+  border-radius: 8px;
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+  min-width: 220px;
+}
+
+.break-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0 0.9375rem;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: .3s ease;
+
+  box-shadow: 0 12px 24px rgba(0, 0, 0, .08);
+}
+
+.break-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 2px 4px #ef7f59;
+}
+
+.break-card .card-image{
+  width:100%;
+  height:15.625rem;
+  object-fit:cover;
+}
+.card-body-custom{
+  padding:22px;
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+
+.card-body-custom {
+  padding: 22px;
+}
+
+.card-title-custom{
+  font-size:24px;
+  font-weight:500;
+  line-height:1.2;
+  margin-bottom:14px;
+  min-height:58px;
+}
+
+.card-description{
+  color:#6b7280;
+  font-size:15px;
+  line-height:1.6;
+  min-height:72px;
+  margin-bottom:20px;
+}
+
+.info-label {
+  font-size: 13px;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.price {
+  color: #1452ff;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.spots {
+  color: #111827;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+/* Shop Break CSS End */
+
+
+/* Blog Page CSS Start */
+.sub-banner.short {
+ min-height: 25rem;
+}
+
+.sub-banner.short .banner-content {
+  margin-top: 6rem;
+}
+
+.room-item {
+  border-radius: 1.875rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.1875rem 0.5rem;
+  height: 100%;
+  display: block;
+}
+.room_item_img_outer {
+  height: 20rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.common_overlay {
+  overflow: hidden;
+  position: relative;
+}
+.room_item_img {
+  height: 100%;
+  width: 100%;
+}
+.bg_center_cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.common_overlay .box {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: rgba(243 103 56/0.2);
+  transition: transform 0.4s ease;
+  z-index: 2;
+}
+.common_overlay:hover .box {
+	transform: translate(0, 0);
+}
+.common_overlay .box1 {
+  top: 0;
+  left: 0;
+  transform: translate(-100%, -100%);
+}
+.common_overlay .box2 {
+  top: 0;
+  right: 0;
+  transform: translate(100%, -100%);
+}
+.common_overlay .box3 {
+  bottom: 0;
+  left: 0;
+  transform: translate(-100%, 100%);
+}
+.common_overlay .box4 {
+  bottom: 0;
+  right: 0;
+  transform: translate(100%, 100%);
+}
+.journal_cards_sec .room-item .ri-text h4 {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--bg-dark);
+  text-transform: capitalize;
+}
+.room-item .ri-text {
+  border-top: none;
+  padding: 1.5rem 1.5rem 1.875rem 1.75rem;
+}
+.journal_cards_sec .container >  .row{
+  max-width:62.5rem;
+  margin: 0 auto;
+}
+/* Blog Page CSS End */
+
+
+/* Blog Description CSS Start */
+
+.blog_description_section {
+	margin-top: 10rem;
+}
+
+.blog_description_wrap {
+	max-width: 75rem;
+}
+
+.block_image_wrap {
+	height: 31.25rem;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	border-radius: 1.875rem;
+	overflow: hidden;
+}
+
+.block_image_outer {
+	height: 100%;
+}
+
+.block_image {
+	height: 100%;
+	width: 100%;
+}
+
+.blog_image_txt {
+  padding: 1.25rem 1.875rem;
+  width: 100%;
+  background-color:var(--bg-dark);
+  text-align: center;
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.blog_image_txt h1 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
+
+.block_image_wrap:hover .blog_image_txt h1 {
+	color: var(--primary);
+}
+
+.blog_image_txt h1::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0.125rem;
+	display: block;
+	margin-top: 0.3125rem;
+	background: var(--primary);
+	transition: width 0.3s ease-in-out;
+	left: 0;
+	bottom: -0.5rem;
+}
+
+.block_image_wrap:hover .blog_image_txt h1::after {
+	width: 100%;
+}
+
+.blog_desc_grps p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.blog_desc_grps h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.blog_desc_grps ul li {
+  margin-left: 2.25rem;
+  list-style-type: disc;
+  margin-bottom: 0.5rem;
+}
+
+.blog_desc_grps ul li::marker {
+	color: var(--primary);
+}
+.blog_desc_grps.pb-4 {
+  border-bottom: 1px solid var(--bg-light);
+}
+header.blog_header {
+  background: #020817;
+}
+
+/* Blog Description CSS End */
+
+/* how it works css start */
+
+.multi-section {
+  background: #f5f5f5;
+  padding: 50px 0;
+}
+
+.multi-section .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.multi-section .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.multi-section .card {
+  background: linear-gradient(135deg, #0b1c3a, #07122a);
+  color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.multi-section .card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.multi-section .card h3 {
+  font-size: 16px;
+}
+
+.multi-section .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.multi-section .icon.circle {
+  background: transparent;
+  border: 2px solid #ef450e;
+  color: #ef450e;
+}
+
+.multi-section .card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.multi-section .steps {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.multi-section .step {
+  background: rgba(255,255,255,0.08);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  flex: 1;
+  text-align: center;
+}
+
+.multi-section .note {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.multi-section .video-box {
+  margin-top: 15px;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.multi-section .video-content img {
+  width: 100%;
+  display: block;
+}
+
+.multi-section .live {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.multi-section .numbers {
+  display: flex;
+  justify-content: space-around;
+  background: #111;
+  padding: 10px;
+}
+
+.multi-section .numbers span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.multi-section .label {
+  text-align: center;
+  font-size: 12px;
+  padding: 8px;
+  background: #0b1c3a;
+}
+
+
+
+.multi-section .video-content img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; 
+  display: block;
+}
+
+/* how it works section css end */
+
+.bg_dark {
+    background-color: #111;
+}
+.collection-card {
+    background: #f1f1f1;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    border-left: 5px solid var(--primary);
+    border-right: 5px solid var(--primary);
+    width: 100%;
+    margin: 0 auto;
+}
+.bg_light {
+    background-color: #f2f2f2;
+}
+.collection-card h3, .collection-card h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.home_delivery .section-heading h2 {
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.footer-pages-wrap {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+}
+.footer-pages-content-grp {
+    margin-bottom: 1.2rem;
+    border-radius: 0.625rem;
+}
+.footer-pages-content-grp ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+.footer-pages-content-grp ul li::marker {
+    color: #111;
+}
+.footer-pages-content-grp ul li {
+    list-style-type: disc;
+}
+.footer-pages-content-grp h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.9375rem;
+    color: #111;
+    line-height: 1.4;
+}
+.footer-pages-content-grp h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.9375rem;
+    color: #111;
+    line-height: 1.4;
+}
+.footer-pages-content-grp p a {
+    color: #ef450a;
+}
+.footer-pages-content-grp p a:hover {
+    text-decoration: underline;
+}

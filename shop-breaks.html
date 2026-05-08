@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/boostrap.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <title>Shop Breaks</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-content">
+                        <div class="site_logo">
+                            <a href="./" class="logo">
+                                <img src="assets/images/logo.png" alt="Motrades">
+                            </a>
+                        </div>
+                        <div class="menu-list" id="mySidenavs">
+                            <span class="menu-close" onclick="closeNav()">
+                                <i class="fa-solid fa-xmark"></i>
+                            </span>
+                            <ul>
+                                <li><a href="./">Live Breaks</a></li>
+                                <li><a href="presells" >Presells</a></li>
+                                <li><a href="how-it-works">How It Works</a></li>
+                            
+                                <li><a href="blog">Blog</a></li>
+                                <li><a href="shop-cards">Shop Breaks</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-icon">
+                            <span onclick="openNav()">
+                                <i class="fa-solid fa-bars"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-overlay" id="menuOverlay" onclick="closeNav()"></div>
+    </header>
+    <!-- header end -->
+
+    <main class="aoshidden">
+        <!-- Banner Start -->
+        <!-- Banner Start -->
+        <section class="sub-banner bg_center_cover" style="background-image: url('./assets/images/home_banner.jpg');">
+            <div class="banner-overlay"></div>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="banner-content text-center">
+                            <span class="banner-label">
+                                LIVE BREAK MARKETPLACE
+                            </span>
+                            <h1>
+                                SHOP BREAKS
+                            </h1>
+                            <p>
+                                Explore premium sports card breaks featuring football, basketball, baseball, soccer,
+                                hockey, and Pokémon hobby products.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner End -->
+
+        <!-- Shop Breaks Cards Content Start -->
+        <section class="shop_break_cards_sec">
+            <div class="container py-5">
+
+                <h2 class="section_heading mb-5">
+                    FEATURED BREAKS
+                </h2>
+
+                <div class="filter-wrapper">
+                    <div class="filter_boxes">
+                        <select class="filter-select" id="sortFilter">
+                            <option value="default">Sort By</option>
+                            <option value="low-high">Price: Low to High</option>
+                            <option value="high-low">Price: High to Low</option>
+                            <option value="name">Name A-Z</option>
+                        </select>
+                    </div>
+                    <div class="filter_boxes">
+                        <select class="filter-select" id="categoryFilter">
+                            <option value="all">All Categories</option>
+                            <option value="football">Football</option>
+                            <option value="baseball">Baseball</option>
+                            <option value="basketball">Basketball</option>
+                            <option value="pokemon">Pokemon</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- CARDS -->
+                <div class="row g-4" id="cardContainer">
+
+                    <!-- CARD 1 -->
+                    <div class="col-lg-3 col-md-6 card-item" data-category="football" data-price="49"
+                        data-name="2024 Prizm Football Hobby Break">
+
+                        <div class="break-card">
+
+                            <img src="https://picsum.photos/500/500?football" class="card-image">
+
+                            <div class="card-body-custom">
+
+                                <h3 class="card-title-custom">
+                                    2024 Prizm Football Hobby Break
+                                </h3>
+
+                                <p class="card-description">
+                                    Chase rookie quarterbacks, silver prizms,
+                                    and exclusive NFL inserts.
+                                </p>
+                                <div class="info-label">
+                                    Price : <span class="theme">$49 Per Spot</span>
+                                </div>
+                                <div class="info-label">
+                                    Spots Left : <span class="theme"> 12 Spots Remaining</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="col-lg-3 col-md-6 card-item" data-category="baseball" data-price="39"
+                        data-name="Topps Chrome Baseball Break">
+
+                        <div class="break-card">
+
+                            <img src="https://picsum.photos/500/500?baseball" class="card-image">
+
+                            <div class="card-body-custom">
+
+                                <h3 class="card-title-custom">
+                                    Topps Chrome Baseball Break
+                                </h3>
+
+                                <p class="card-description">
+                                    Premium baseball break featuring chrome rookies
+                                    and autograph chase cards.
+                                </p>
+
+                                <div class="info-label">
+                                    Price : <span class="theme"> $39 Per Spot</span>
+                                </div>
+
+                                <div class="info-label">
+                                    Spots Left : <spn class="theme"> 8 Spots Remaining</spn>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="col-lg-3 col-md-6 card-item" data-category="basketball" data-price="59"
+                        data-name="NBA Mosaic Basketball Break">
+
+                        <div class="break-card">
+
+                            <img src="https://picsum.photos/500/500?basketball" class="card-image">
+
+                            <div class="card-body-custom">
+
+                                <h3 class="card-title-custom">
+                                    NBA Mosaic Basketball Break
+                                </h3>
+
+                                <p class="card-description">
+                                    Look for rookie color blasts, rare parallels,
+                                    and superstar autos.
+                                </p>
+
+                                <div class="info-label">
+                                    Price : <span class="theme"> $59 Per Spot </span>
+                                </div>
+                                <div class="info-label">
+                                    Spots Left : <span class="theme">10 Spots Remaining</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CARD 4 -->
+                    <div class="col-lg-3 col-md-6 card-item" data-category="pokemon" data-price="29"
+                        data-name="Pokémon Premium Booster Break">
+
+                        <div class="break-card">
+
+                            <img src="https://picsum.photos/500/500?pokemon" class="card-image">
+
+                            <div class="card-body-custom">
+
+                                <h3 class="card-title-custom">
+                                    Pokémon Premium Booster Break
+                                </h3>
+
+                                <p class="card-description">
+                                    Exclusive Pokémon live break featuring rare chase
+                                    cards and collector packs.
+                                </p>
+
+                                <div class="info-label">
+                                    Price : <span class="theme"> $29 Per Spot</span>
+                                </div>
+
+                                <div class="price">
+
+                                </div>
+
+                                <div class="info-label">
+                                    Spots Left : <span class="theme"> 15 Spots Remaining</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- Shop Breaks Cards Content End -->
+
+        <!-- footer section start -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-col">
+                        <div class="logo">
+                            <img src="assets/images/logo.png" alt="logo">
+                        </div>
+
+                        <p class="footer-about">
+                            Your trusted destination for live sports card breaks,
+                            premium hobby products, and a community built for collectors.
+                        </p>
+
+                        <div class="socials">
+                            <a href="#" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="#" class="youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+
+                            <a href="#" class="discord">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- COLUMN 2 -->
+                    <div class="footer-col">
+
+                        <h3 class="footer-title">Quick Links</h3>
+
+                        <ul class="footer-links">
+
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Home</a>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Live Breaks</a>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">How It Works</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Watch Live</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Blog</a>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="#">Shop Cards</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- COLUMN 3 -->
+                    <div class="footer-col">
+
+                        <h3 class="footer-title">Support</h3>
+
+                        <ul class="support-list">
+
+                            <li>
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:support@motrades.com">
+                                    support@motrades.com
+                                </a>
+                            </li>
+
+                            <li>
+                                <i class="fas fa-truck"></i>
+                                <a href="mailto:shipping@motrades.com">
+                                    shipping@motrades.com
+                                </a>
+                            </li>
+
+                            <li>
+                                <i class="far fa-circle-question"></i>
+                                <a href="#">Help Center</a>
+                            </li>
+
+                            <li>
+                                <i class="far fa-clock"></i>
+                                <span>Mon - Sat: 10AM - 8PM EST</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <!-- COLUMN 4 -->
+                    <div class="footer-col">
+
+                        <h3 class="footer-title">Stay Connected</h3>
+
+                        <p class="stay-text">
+                            Follow us for live break updates, news,
+                            giveaways, and exclusive drops.
+                        </p>
+
+                        <div class="socials">
+
+                            <a href="#" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="#" class="youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+
+                            <a href="#" class="discord">
+                                <i class="fab fa-discord"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- BOTTOM -->
+               <div class="footer-bottom">
+                    <p>© 2026 <a href="./">Motrades.</a> All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy">Privacy Policy</a> 
+                        <a href="terms-and-conditions">Terms of Service</a>                   
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- footer section end -->
+
+        <script src="assets/js/jquery.js"></script>
+        <script>
+            const sortFilter = document.getElementById("sortFilter");
+            const categoryFilter = document.getElementById("categoryFilter");
+            const container = document.getElementById("cardContainer");
+
+            function filterAndSortCards() {
+
+
+                let cards = [...document.querySelectorAll(".card-item")];
+
+                const selectedCategory = categoryFilter.value;
+                const selectedSort = sortFilter.value;
+
+
+
+
+                cards.forEach(card => {
+
+                    const cardCategory = card.getAttribute("data-category");
+
+                    if (
+                        selectedCategory === "all" ||
+                        cardCategory === selectedCategory
+                    ) {
+                        card.style.display = "block";
+                    } else {
+                        card.style.display = "none";
+                    }
+
+                });
+
+
+                let visibleCards = cards.filter(
+                    card => card.style.display !== "none"
+                );
+
+
+
+                visibleCards.sort((a, b) => {
+
+                    const priceA = Number(a.getAttribute("data-price"));
+                    const priceB = Number(b.getAttribute("data-price"));
+
+                    const nameA = a.getAttribute("data-name").toLowerCase();
+                    const nameB = b.getAttribute("data-name").toLowerCase();
+
+
+                    if (selectedSort === "low-high") {
+                        return priceA - priceB;
+                    }
+
+
+                    if (selectedSort === "high-low") {
+                        return priceB - priceA;
+                    }
+
+
+                    if (selectedSort === "name") {
+                        return nameA.localeCompare(nameB);
+                    }
+
+                    return 0;
+
+                });
+
+
+
+                visibleCards.forEach(card => {
+                    container.appendChild(card);
+                });
+
+            }
+
+
+            sortFilter.addEventListener("change", filterAndSortCards);
+            categoryFilter.addEventListener("change", filterAndSortCards);
+
+
+            filterAndSortCards();
+        </script>
+        <script src="assets/js/aos.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>

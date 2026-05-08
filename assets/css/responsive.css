@@ -235,6 +235,9 @@
     .presell-steps .steps-wrapper::before {
         display: none;
     }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
 }
 
 @media (max-width: 767px) {
@@ -414,7 +417,7 @@
         place-items: center;
     }
 
-    /* lakh */
+
       .top-content {
     flex-direction: column;
     text-align: center;
@@ -481,6 +484,24 @@
   .card ul,
   .card ol {
     text-align: left;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    text-align: center;
+  }
+  .multi-section .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .multi-section .steps {
+    flex-direction: column;
+  }
+
+  .multi-section .step {
+    width: 100%;
   }
 }
 
