@@ -681,6 +681,9 @@
     .price {
           font-size: 1.3rem;
     }
+    .site_logo img {
+        max-width: 5rem;
+    }
 }
 
 @media screen and (max-width:480px) {
