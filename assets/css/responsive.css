@@ -89,6 +89,7 @@
         width: 100%;
         transition: width 0.3s ease;
     }
+
     section.pressells-section .right {
         max-width: 400px;
     }
@@ -259,18 +260,66 @@
     .laptop-img {
         width: 100%;
     }
+
     .customers-section-main {
         flex-direction: column-reverse;
     }
+
     .section_heading {
         font-size: 2.2rem;
     }
+
     .bar-content {
         flex-direction: column;
         text-align: center;
     }
+
     .py-7 {
         padding: 3.375rem 0;
+    }
+
+    .presell-card .btn-row {
+        justify-content: center;
+    }
+
+    .product-description {
+        min-height: 0;
+    }
+
+    .product-title {
+        min-height: 0;
+    }
+
+    .product-title {
+        font-size: 1rem;
+    }
+
+    .product-image {
+        max-width: 50%;
+    }
+
+    .presell-section .presell-list li {
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    .price {
+        font-size: 1.2rem;
+    }
+
+    .product-description {
+        font-size: 0.9rem;
+    }
+
+    .spots {
+        font-size: 0.9rem;
+    }
+    .card-description {
+            min-height: 0;  
+            margin-bottom: 0.625rem;
+    }
+    .card-title-custom {
+        min-height: 0;
     }
 }
 
@@ -283,15 +332,21 @@
     .banner_section {
         height: 100%;
     }
+
     section.pressells-section .right {
         max-width: 100%;
     }
+
     .stats-grid {
         grid-template-columns: 1fr 1fr;
     }
 
     .stat-card:not(:last-child)::after {
         display: none;
+    }
+
+    .product-image {
+        max-width: 100%;
     }
 
     .stat-card {
@@ -411,7 +466,7 @@
         margin-top: 2rem;
     }
 
- 
+
     .footer-top {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -479,10 +534,6 @@
         text-align: center;
     }
 
-    .product-image {
-        width: 120px;
-    }
-
     .top-content {
         flex-direction: column;
         text-align: center;
@@ -544,28 +595,35 @@
     .site_logo img {
         max-width: 6rem;
     }
+
     .section_heading {
         font-size: 2rem;
     }
+
     .home_online_cards_wrap {
         flex-direction: column-reverse;
     }
+
     .sub-banner {
         padding: 0 20px;
-      }
-    
-      .sub-banner h1 {
+    }
+
+    .sub-banner h1 {
         font-size: 3rem;
-      }
-    
-      .sub-banner p {
+    }
+
+    .sub-banner p {
         font-size: 1rem;
-      }
-    
-      .banner-label::before,
-      .banner-label::after {
+    }
+
+    .banner-label::before,
+    .banner-label::after {
         width: 40px;
-      }
+    }
+
+    .price {
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -573,12 +631,15 @@
     .feature-strip {
         padding: 20px;
     }
+
     .customers-section-main {
         gap: 10px;
     }
+
     .banner_content h1 {
         font-size: 2rem;
     }
+
     .next-gen__container {
         gap: 10px;
     }
@@ -620,15 +681,22 @@
         align-items: start;
         gap: 0;
     }
+
     .sub-banner h1 {
         font-size: 2rem;
     }
+
     .banner-content {
         margin-top: 4rem;
     }
+
     .stat-number,
     .static-text {
         font-size: 1.2rem;
+    }
+
+    .blog_description_section {
+        margin-top: 7rem;
     }
 
     .btn-primary,
@@ -651,38 +719,66 @@
     .about-section {
         padding: 2.75rem 0;
     }
+
     .bottom-section {
         padding: 1rem;
-      }
-      .laptop-img img {
+    }
+
+    .laptop-img img {
         height: 16.875rem;
-    } 
+    }
+
     .py-7 {
         padding: 3.375rem 0;
     }
+
     .section_heading {
         font-size: 1.8rem;
     }
+
     .break-card .card-content h3 {
         font-size: 1.3rem;
-       }
-       .buttons {
+    }
+
+    .buttons {
         gap: 0;
     }
-    .banner-label::before, .banner-label::after {
+
+    .banner-label::before,
+    .banner-label::after {
         width: 10px;
     }
+
     .banner-label {
-           font-size: 0.7rem;
+        font-size: 0.7rem;
     }
+
     .product-description {
         min-height: 0;
     }
+
     .price {
-          font-size: 1.3rem;
+        font-size: 1.3rem;
     }
+
     .site_logo img {
         max-width: 5rem;
+    }
+
+    .home_online_cards_logo_img {
+        max-width: 4rem;
+    }
+
+    .home_online_cards_subtitle {
+        font-size: 1rem;
+    }
+
+    .next-gen__buttons {
+        flex-direction: column;
+    }
+
+    .home_online_cards_small_title {
+        font-size: 0.9375rem;
     }
 }
 
@@ -722,7 +818,7 @@
     .logo h2 {
         font-size: 24px;
     }
-    
+
 
     .footer-about,
     .stay-text,

@@ -712,7 +712,7 @@ span.menu-close {
 }
 
 .card-image {
-  padding: 30px 25px 10px;
+  padding: 1.875rem 1.25rem 0.625rem;
   text-align: center;
 }
 
@@ -1607,9 +1607,10 @@ p.content-para {
 .customers-section {
   background: linear-gradient(135deg, #08142c, #0c1f47);
   color: #fff;
-  padding: 60px 20px;
 }
-
+.presell-card .btn-row {
+  justify-content: start;
+}
 .customers-section-main {
   display: flex;
   align-items: center;
@@ -1755,6 +1756,8 @@ p.content-para {
 
 .next-gen__buttons {
   margin-top: 20px;
+  display: flex;
+  gap: 10px;
 }
 
 .next-gen .btn-primary {
@@ -2425,7 +2428,7 @@ section.pressells-section .right {
   background: #fff;
   border-radius: 10px;
   border: 1px solid #e7eaf0;
-  padding: 18px;
+  padding: 1.125rem;
   height: 100%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .04);
   transition: 0.2s all ease-in-out;
@@ -2472,7 +2475,7 @@ section.pressells-section .right {
 }
 
 .product-description {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.45;
   color: #666;
   margin-bottom: 16px;
@@ -2487,12 +2490,6 @@ section.pressells-section .right {
   margin-bottom: 6px;
 }
 
-.spots {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 18px;
-  font-weight: 500;
-}
 
 .spots span {
   color: var(--primary);
@@ -2672,7 +2669,7 @@ section.pressells-section .right {
 }
 
 .card-title-custom{
-  font-size:24px;
+  font-size:1.5rem;
   font-weight:500;
   line-height:1.2;
   margin-bottom:14px;
@@ -2681,7 +2678,7 @@ section.pressells-section .right {
 
 .card-description{
   color:#6b7280;
-  font-size:15px;
+  font-size:0.9375rem;
   line-height:1.6;
   min-height:72px;
   margin-bottom:20px;
@@ -2697,7 +2694,7 @@ section.pressells-section .right {
 
 .spots {
   color: #111827;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   margin-bottom: 22px;
 }
