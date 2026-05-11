@@ -3036,6 +3036,14 @@ header.blog_header {
   font-size: 1.5rem;
 }
 
+.collection-card-img img {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
 .home_delivery .section-heading h2 {
     text-align: center;
     max-width: 750px;
