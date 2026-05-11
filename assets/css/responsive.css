@@ -19,11 +19,15 @@
         top: auto;
         margin-top: 2.5rem;
     }
-
+    .card-description ,     .card-title-custom{
+        min-height: 0;
+    }
     .home_online_cards_main_title {
         font-size: 3.5rem;
     }
-
+    .card-description {
+        margin-bottom: 5px;
+    }
     .home_online_cards {
         padding: 1.25rem;
     }
@@ -192,7 +196,9 @@
     .customers-section .card-images {
         margin: 40px 0;
     }
-
+    .choose-text p {
+        font-size: 1rem;
+    }
     .customers-section .card {
         position: relative;
         transform: none !important;
@@ -314,12 +320,17 @@
     .spots {
         font-size: 0.9rem;
     }
+
     .card-description {
-            min-height: 0;  
-            margin-bottom: 0.625rem;
+        min-height: 0;
+        margin-bottom: 0.625rem;
     }
+
     .card-title-custom {
         min-height: 0;
+    }
+    .multi-section .steps {
+        flex-direction: column;
     }
 }
 
@@ -507,6 +518,7 @@
     .top-content {
         flex-direction: column-reverse !important;
         text-align: center;
+        align-items: flex-start;
     }
 
     .left {
@@ -780,6 +792,14 @@
     .home_online_cards_small_title {
         font-size: 0.9375rem;
     }
+
+    .choose-text p {
+        font-size: 1rem;
+    }
+
+    .home_live_sports_card_count {
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -818,7 +838,9 @@
     .logo h2 {
         font-size: 24px;
     }
-
+    .sub-banner h1 {
+        font-size: 1.8rem;
+    }
 
     .footer-about,
     .stay-text,
