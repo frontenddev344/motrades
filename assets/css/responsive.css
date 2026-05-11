@@ -575,6 +575,7 @@
         grid-template-columns: 1fr;
     }
 
+
     .card {
         text-align: center;
     }
@@ -667,7 +668,9 @@
     .feature-content p {
         font-size: 12px;
     }
-
+    .product-image img {
+        max-width: 17rem;
+    }
     .home_cta_title {
         font-size: 28px;
     }
