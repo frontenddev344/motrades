@@ -754,11 +754,16 @@
     .break-card .card-content h3 {
         font-size: 1.3rem;
     }
-
+    .footer-col .logo img {
+        max-width: 6rem;
+    }
     .buttons {
         gap: 0;
     }
-
+    .choose-icn {
+        height: 4rem;
+        width: 4rem;
+    }
     .banner-label::before,
     .banner-label::after {
         width: 10px;
