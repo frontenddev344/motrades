@@ -1931,7 +1931,7 @@ p.content-para {
   font-size: 1.25rem;
   font-weight: 400;
   margin-bottom: 22px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 0.5px;
   position: relative;
   display: inline-block;
