@@ -1148,6 +1148,7 @@ p.content-para {
 .home_live_sports_cards_wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  display: none;
 }
 
 .home_live_sports_card_item {
