@@ -440,11 +440,12 @@
         font-size: 2.75rem;
     }
 
-    .home_online_cards_products {
-        width: 100%;
-        max-width: 31.25rem;
-        height: 17.5rem;
-    }
+  .home_online_cards_products {
+    width: 100%;
+    max-width: 31.25rem;
+    height: 100%;
+    margin-bottom: 20px;
+}
 
     .home_online_cards_product_prizm {
         width: 10rem;
