@@ -2785,11 +2785,16 @@ section.pressells-section .right {
 /* Blog Description CSS Start */
 
 .blog_description_section {
-	margin-top: 10rem;
+    max-width: 1300px;
+    margin: 10rem auto 1.875rem;
+    /* border: 1px solid; */
+    border-radius: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .blog_description_wrap {
 	max-width: 75rem;
+  margin: 0 auto;
 }
 
 .block_image_wrap {
