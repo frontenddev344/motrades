@@ -2857,7 +2857,7 @@ section.pressells-section .right {
 }
 
 .blog_desc_grps h2 {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -3089,4 +3089,9 @@ header.blog_header {
 }
 .footer-pages-content-grp p a:hover {
     text-decoration: underline;
+}
+
+.blog_desc_grps h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
 }

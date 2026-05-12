@@ -446,6 +446,9 @@
     height: 100%;
     margin-bottom: 20px;
 }
+.blog_desc_grps h2 {
+    font-size: 1.8rem;
+}
 
     .home_online_cards_product_prizm {
         width: 10rem;
