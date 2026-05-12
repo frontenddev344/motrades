@@ -3053,7 +3053,7 @@ header.blog_header {
 }
 
 .footer-pages-wrap {
-    max-width: 81.25rem;
+    /* max-width: 81.25rem; */
     margin: 0 auto;
     position: relative;
     z-index: 99;
