@@ -2300,7 +2300,7 @@ p.content-para {
   font-size: 22px;
 }
 
-.presell-steps .step-item h4 {
+.presell-steps .step-item h2 {
   color: #ef450e;
   font-size: 14px;
   font-weight: 700;
@@ -2549,7 +2549,7 @@ section.pressells-section .right {
   color: #ef450e;
 }
 
-.card h3 {
+.card h2 {
   font-size: 16px;
   margin-bottom: 12px;
   font-weight: 600;
@@ -2764,7 +2764,7 @@ section.pressells-section .right {
   right: 0;
   transform: translate(100%, 100%);
 }
-.journal_cards_sec .room-item .ri-text h4 {
+.journal_cards_sec .room-item .ri-text h2 {
   font-size: 1.3rem;
   line-height: 1.3;
   text-align: center;
@@ -2856,7 +2856,7 @@ section.pressells-section .right {
   margin-bottom: 0.5rem;
 }
 
-.blog_desc_grps h3 {
+.blog_desc_grps h2 {
   font-size: 1.4rem;
   font-weight: 600;
 }
