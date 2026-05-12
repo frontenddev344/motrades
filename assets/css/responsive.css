@@ -19,15 +19,20 @@
         top: auto;
         margin-top: 2.5rem;
     }
-    .card-description ,     .card-title-custom{
+
+    .card-description,
+    .card-title-custom {
         min-height: 0;
     }
+
     .home_online_cards_main_title {
         font-size: 3.5rem;
     }
+
     .card-description {
         margin-bottom: 5px;
     }
+
     .home_online_cards {
         padding: 1.25rem;
     }
@@ -196,9 +201,11 @@
     .customers-section .card-images {
         margin: 40px 0;
     }
+
     .choose-text p {
         font-size: 1rem;
     }
+
     .customers-section .card {
         position: relative;
         transform: none !important;
@@ -329,6 +336,7 @@
     .card-title-custom {
         min-height: 0;
     }
+
     .multi-section .steps {
         flex-direction: column;
     }
@@ -440,15 +448,16 @@
         font-size: 2.75rem;
     }
 
-  .home_online_cards_products {
-    width: 100%;
-    max-width: 31.25rem;
-    height: 100%;
-    margin-bottom: 20px;
-}
-.blog_desc_grps h2 {
-    font-size: 1.8rem;
-}
+    .home_online_cards_products {
+        width: 100%;
+        max-width: 31.25rem;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .blog_desc_grps h2 {
+        font-size: 1.8rem;
+    }
 
     .home_online_cards_product_prizm {
         width: 10rem;
@@ -672,9 +681,11 @@
     .feature-content p {
         font-size: 12px;
     }
+
     .product-image img {
         max-width: 15rem;
     }
+
     .home_cta_title {
         font-size: 28px;
     }
@@ -758,16 +769,20 @@
     .break-card .card-content h3 {
         font-size: 1.3rem;
     }
+
     .footer-col .logo img {
         max-width: 6rem;
     }
+
     .buttons {
         gap: 0;
     }
+
     .choose-icn {
         height: 4rem;
         width: 4rem;
     }
+
     .banner-label::before,
     .banner-label::after {
         width: 10px;
@@ -850,6 +865,7 @@
     .logo h2 {
         font-size: 24px;
     }
+
     .sub-banner h1 {
         font-size: 1.8rem;
     }
